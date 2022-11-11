@@ -101,7 +101,7 @@ class OutputToEnv {
       console.log(chalk.blueBright('outputToEnv attempting to write values to '+filePath));
       const getEnvDocument = (envVars) => {
         const output = _.map(envVars, (value, key) => {
-          return `${key}:${value}`;
+          return `${key}: ${value}`;
         });
         return output.join(os.EOL);
       };

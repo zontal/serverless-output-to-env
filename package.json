@@ -1,6 +1,6 @@
 {
   "name": "serverless-output-to-env",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Serverless plugin that writes stack outputs to a .env file during after:deploy hook.",
   "main": "index.js",
   "repository": {
